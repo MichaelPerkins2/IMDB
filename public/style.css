@@ -1,0 +1,84 @@
+html {
+    background: azure;
+    height: 100vh;
+    width: 100vw;
+}
+header {
+    border: 2px solid gold;
+    padding: 24px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    margin: 5vw;
+    width: 90vw;
+}
+.dropbtn1,
+.dropbtn2,
+.dropbtn3,
+.dropbtn4 {
+    color: white;
+    background: black;
+}
+.input {
+    width: 40vw;
+}
+section,
+nav {
+    border: 2px solid black;
+    padding: 24px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background: whitesmoke;
+    display: flex;
+    flex-direction: row
+}
+main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+label {
+    color: gold;
+}
+footer {
+    border: 2px solid gold;
+    padding: 24px;
+    background: black;
+    color: gold;
+    margin: 40px;
+    display: flex;
+    align-self: flex-end;
+}
+.imdb-button {
+    background-color: gold;
+    color: black;
+}
+.search-button {
+    background-color: lightblue;
+    color: black;
+}
+.dropdown {
+    display: flex;
+    flex-direction: row;
+}
+.left {
+    margin-right: 24px;
+    width: fit-content;
+    height: fit-content;
+}
+.right {
+    width: fit-content;
+    height: fit-content;
+}
+
+section {
+    width: 40vw;
+    height: 18vh;
+}
+nav {
+    width: 40vw;
+    height: 25vh;
+}
